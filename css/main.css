@@ -218,4 +218,64 @@ input {
 }
 /* ----- HERO SECTION END ----- */
 
+/* ----- FEATURES SECTION END ----- */
+.features {
+	padding: 70px 0;
+}
+
+.features__list {
+	display: flex;
+	justify-content: space-between;
+	gap: 80px;
+}
+
+.features__item {
+	max-width: 290px;
+	width: 100%;
+}
+
+.features__title {
+	font-size: 18px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: var(--color-nero);
+}
+
+.features__desc {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: var(--color-gray);
+	margin: 30px 0 20px;
+}
+
+.features__icons {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.features__icon {
+	width: 8px;
+	height: 8px;
+	background-color: var(--color-gainsboro);
+}
+
+.features__icon--line {
+	width: 40px;
+	height: 3px;
+	padding-left: 12px;
+	background-color: var(--color-flamingo);
+}
+
+.features__btn {
+	font-size: 16px;
+	line-height: 160%;
+	color: var(--color-flamingo);
+	text-transform: uppercase;
+	background-color: transparent;
+	cursor: pointer;
+}
+/* ----- FEATURES SECTION END ----- */
+
 /* ---------- MAIN END ---------- */
